@@ -26,9 +26,6 @@ Docker부터 Kubernetes까지 단계별로 학습할 수 있는 실습 저장소
 
 ## 시작하기
 ```bash
-# 폴더 구조 생성
-./scripts/setup.sh
-
 # Docker 기초부터 시작
 cd docker/01-basic
 ```
