@@ -4,8 +4,9 @@
 
 echo "Docker 01-basic 실습 파일을 생성합니다..."
 
-# docker/01-basic 폴더로 이동
-cd docker/01-basic
+# 스크립트가 위치한 디렉터리로 이동해 경로 문제를 방지
+script_dir="$(cd "$(dirname "$0")" && pwd)"
+cd "$script_dir"
 
 # 메인 README.md 작성
 cat > README.md << 'EOF'
